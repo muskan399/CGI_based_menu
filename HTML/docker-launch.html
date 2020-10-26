@@ -1,0 +1,25 @@
+
+
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+<div class="jumbotron">
+  <h1 class="display-4">Launch the container</h1>
+ </div>
+
+
+<form action="http://192.168.29.247/cgi-bin/docker-start.py">
+  <div class="form-group">
+   Enter the os name <input name="os"/>
+<br/>
+<br/>
+Enter the image name <input name="image"/>
+<br/>
+<br/>
+Are you sure that the os name is uniques and image is valid <b> yes</b> <input type="radio" name="choice"/><b> no</b><input type="radio" name="choice"/>
+<br/>
+<br/>
+
+<button type="submit" class="btn btn-primary">Run</button>
+
+   </div>
+ </form>
